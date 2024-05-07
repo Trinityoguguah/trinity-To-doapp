@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>To-do App</h1>
+        <div class="add-todo">
+            <input type="text" placeholder="Add your new To-do">
+            <button class="addBtn" onclick="addTodo()">+</button>
+        </div>
+        <div class="show-todo-container">
+          <div class="show-todo">
+            <h2 class="todo">Buy a New gaming Laptop</h2>
+            <button class="deleteBtn" onclick="deleteTodo(id)">D</button>
+        </div>
+       </div>
+        <div class="about-todo">
+            <h3>You have <span class="pending">4</span> pending tasks</h3>
+            <button class="clearBtn" onclick="clearTodo()">Clear All</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
